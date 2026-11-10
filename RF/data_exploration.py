@@ -1,5 +1,5 @@
 import pandas as pd
-from config import Config
+from text_classification.RF.config import Config
 from collections import Counter
 import matplotlib.pyplot as plt
 

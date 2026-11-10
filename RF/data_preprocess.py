@@ -1,6 +1,6 @@
 import jieba
 import pandas as pd
-from config import Config
+from text_classification.RF.config import Config
 
 config = Config()
 
