@@ -1,0 +1,23 @@
+﻿# ---- 数据（体积大 / 第三方数据集，不入库）----
+data/raw/crosswoz/
+data/processed/
+*.bak
+
+# ---- 本地实验文件（不入库）----
+data/build_kb_md.py
+data/kb_md/
+data/raw/kb.tsv
+
+# ---- 模型权重 ----
+BERT/save_model/
+RF/model/
+
+# ---- Python 缓存 ----
+__pycache__/
+*.pyc
+*.pyo
+
+# ---- IDE ----
+.idea/
+.vscode/
+.git_old/
