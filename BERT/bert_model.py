@@ -17,5 +17,4 @@ class BertClassifierModel(nn.Module):
 
     def forward(self,input_ids,attention_mask):
         bert_output = self.bert_model(input_ids = input_ids,attention_mask = attention_mask)
-
         return self.linear(bert_output.last_hidden_state[:,0])
